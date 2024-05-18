@@ -87,9 +87,6 @@ for f = 1:length(folders)
             truncated_data.(fn{j}) = structured_data.(fn{j})(:,:,1:smallest_dim);
         end
 
-    % scatterplot(truncated_data.(fn{j})(:,:,1))
-    % fieldName = strrep(key, '_', ' ');  % Replace underscore with space
-    % title(strcat('Constellation Diagram of',{' '}, fieldName))
 
     end
     
