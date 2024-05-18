@@ -4,8 +4,13 @@ close all
 
 % 4 class classification
 folders = {'BLUETOOTH', 'ZIGBEE', 'WLANbg', 'WLANnac'};
+
+% WLANac settings classification
+%folders = {'WLANnacBPSK', 'WLANnacQPSK', 'WLANnacQAM16', 'WLANnacQAM256'};
+
 % 7 class classification
 %folders = {'BLUETOOTH', 'ZIGBEE', 'WLANbg', 'WLANnac', 'BluetoothWLANnac', 'BluetoothWLANbg', 'ZigBeeWLANbg'};
+
 % 8 class classification
 %folders = {'BLUETOOTH', 'ZIGBEE', 'WLANbg', 'WLANnac', 'BluetoothWLANnac', 'BluetoothWLANbg', 'ZigBeeWLANbg', 'BluetoothWLANnacZigBee'};
 
